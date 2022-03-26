@@ -17,9 +17,7 @@ app.get('/', (req, res) => {
 //   console.log(req.params.branch)
 //   res.render(`${req.params.branch}`)
 // })
-app.get('/Index', (req, res) => {
-  res.render('index')
-})
+
 app.get('/about', (req, res) => {
   res.render('about')
 })
